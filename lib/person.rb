@@ -4,6 +4,10 @@ class Person
     @name = name
   end
 
+  def job=(job)
+    @job = job
+  end
+
   #getter method
   def name
     @name
